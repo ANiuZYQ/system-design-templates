@@ -1,0 +1,85 @@
+{
+  "source": "user-provided-cdn",
+  "files": {
+    "antd.min.css": {
+      "bytes": 2971,
+      "sha256": "7D1D7B73DEED37C68812FE9D440B6E725BB8CC1F7805C0241F7F1806AE831581"
+    },
+    "antd.min.js": {
+      "bytes": 1436797,
+      "sha256": "61461E734EDD14F0772FB8BB7CBE0642A09CAC95977DC53F87CD14AB3D7DF513"
+    },
+    "antd5.min.js": {
+      "bytes": 1536696,
+      "sha256": "47AB0BB54D59D81321E699926C3AF0DF1C240BC4284E8112096A6372758E488D"
+    },
+    "babel.min.js": {
+      "bytes": 2839199,
+      "sha256": "F8B886A996FB6DE909204AB227BFEACCE344387FF838EBE4E921079C0A1D3F7B"
+    },
+    "dayjs.min.js": {
+      "bytes": 7169,
+      "sha256": "94259FFB28549A238BE05F592C87F9B3046D0D3E7A2AC9101455599435331CB5"
+    },
+    "react-dom.production.min.js": {
+      "bytes": 131891,
+      "sha256": "CBB9B79A74DE0C95838EB000D657C1F660ACFC93ECEA91AF40E726867A2997DD"
+    },
+    "react.production.min.js": {
+      "bytes": 10746,
+      "sha256": "5165E8E5F1A9A9D7CFF898009EB57906C25D51C40D3138B6C787353C60FE41D1"
+    },
+    "reset.css": {
+      "bytes": 3692,
+      "sha256": "A5919EDDD2C277AB296FEFF13C53A71B82BAC021F4A34710C1541AFDD5C5E854"
+    },
+    "vue.global.prod.min.js": {
+      "bytes": 144118,
+      "sha256": "EBD56491273D0082E22306A5BAF407C2D0BC8152851926AA4C01FD4E934F965D"
+    },
+    "vue.min.js": {
+      "bytes": 144118,
+      "sha256": "EBD56491273D0082E22306A5BAF407C2D0BC8152851926AA4C01FD4E934F965D"
+    },
+    "element-plus/dist/index.css": {
+      "bytes": 316938,
+      "sha256": "728BBA2037202C36C8934D01A15CE34C0A2CC1C41B9261001978467ADD49FF47"
+    },
+    "element-plus/dist/index.full.min.js": {
+      "bytes": 946634,
+      "sha256": "33C03209F83386BCC8BF0E2FA75CD9461BDB13503FF1DBC7099ED9304F04F16B"
+    }
+  },
+  "stacks": {
+    "antd5": {
+      "runtime": "React 18.2.0 + Ant Design 5.28.0 + Babel 7.23.5",
+      "files": [
+        "reset.css",
+        "react.production.min.js",
+        "react-dom.production.min.js",
+        "dayjs.min.js",
+        "antd5.min.js",
+        "babel.min.js"
+      ]
+    },
+    "antd5-legacy": {
+      "runtime": "React 18.2.0 + Ant Design 5.12.8 + Babel 7.23.5",
+      "files": [
+        "antd.min.css",
+        "react.production.min.js",
+        "react-dom.production.min.js",
+        "dayjs.min.js",
+        "antd.min.js",
+        "babel.min.js"
+      ]
+    },
+    "element-plus": {
+      "runtime": "Vue 3.4.21 + Element Plus 2.5.6",
+      "files": [
+        "vue.min.js",
+        "element-plus/dist/index.css",
+        "element-plus/dist/index.full.min.js"
+      ]
+    }
+  }
+}
